@@ -1,0 +1,4 @@
+#!/bin/bash
+
+source gdax/bin/activate
+pip install -r requirements.txt

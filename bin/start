@@ -1,0 +1,5 @@
+#!/bin/bash
+
+source gdax/bin/activate
+python -m trading_package.process_manager
+python -m trading_package.scripts.cancel_all_orders

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+source gdax/bin/activate
+python -m unittest discover tests
