@@ -1,5 +1,9 @@
 # GDAX Multiprocess Currency Network Platform
 
+## Build
+[![Build Status](https://travis-ci.org/abrahamchaibi/trading_package.svg?branch=master)](https://travis-ci.org/abrahamchaibi/trading_package)
+
+## Overview
 This package implements a Level 2 order book (from a websocket), portfolio manager, and network cycle calculator for the GDAX exchange. Easy plugin extensibility for trading strategies and strong performance on multicore machines.
 I have been using it over the past few weeks to manage some of my personal strategies but it still has a number of kinks to be worked out! A sample strategy is provided in SerialTrader; to add your own simply extend BasePortfolioGroup and update PortfolioProcessor accordingly.
 
