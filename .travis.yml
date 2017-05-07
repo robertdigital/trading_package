@@ -8,3 +8,5 @@ install:
 script: coverage run -m unittest discover -v
 services:
   - redis-server
+after_success:
+  - coveralls

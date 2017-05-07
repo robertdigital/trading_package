@@ -5,3 +5,4 @@ gdax
 dump.rdb
 /gdax/
 logs/*.log
+.coverage
