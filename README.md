@@ -2,6 +2,7 @@
 
 ## Build
 [![Build Status](https://travis-ci.org/abrahamchaibi/trading_package.svg?branch=master)](https://travis-ci.org/abrahamchaibi/trading_package)
+[![Coverage Status](https://coveralls.io/repos/github/abrahamchaibi/trading_package/badge.svg?branch=master)](https://coveralls.io/github/abrahamchaibi/trading_package?branch=master)
 
 ## Overview
 This package implements a Level 2 order book (from a websocket), portfolio manager, and network cycle calculator for the GDAX exchange. Easy plugin extensibility for trading strategies and strong performance on multicore machines.
