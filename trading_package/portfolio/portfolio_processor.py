@@ -9,7 +9,7 @@ from trading_package.client_initializer import *
 from trading_package.config.constants import STALE_OPEN_ORDERS, ORDER_CONFIRMATION_TIME
 from trading_package.helper.enums import *
 from trading_package.order_book.order import Order
-from trading_package.portfolio.parallel_trader import PortfolioGroup
+from trading_package.portfolio.portfolio import BasePortfolioGroup
 from trading_package.portfolio.portfolio import Portfolio
 from trading_package.portfolio.portfolio_order_book import PortfolioOrderBook
 from trading_package.portfolio.product import ProductManager
@@ -32,7 +32,7 @@ class PortfolioProcessor(Process):
         self.exit = exit_event
         self.product_manager = product_manager
         self.order_book = PortfolioOrderBook(self.product_manager)
-        self.portfolio = PortfolioGroup(self.order_book)
+        self.portfolio = BasePortfolioGroup(self.order_book)
         self.ready_events = ready_events
         self.registered_orders = []
 
