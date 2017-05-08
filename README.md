@@ -52,7 +52,8 @@ If you are placing orders based on best bid/ask this is probably unnecessary.
 * Using network cycles depends on a strong mean-reversion component; I very much recommend adding short term momentum predictors for your own strategies.
 * Two redis db's are used; one to maintain the order book and one for a persistent history of your portfolio size for various currencies.
 * Please email me if you want to discuss or are interested in collaborating!
-
+* Bitcoin donations gladly accepted at address:
+```1ASsFvTUCmKt9hcpxkfRkdmJH4qr1a1XuB```
 ## Contributing
 
 1. Fork it!
